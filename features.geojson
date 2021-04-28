@@ -1,0 +1,2231 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Medical school: San Francisco, California. MPH&TM: New Orleans, Louisiana\"",
+        "initials": "KA",
+        "job": "Medical Epidemiologist",
+        "name": "Kristina A.",
+        "place_name": "New Orleans, Louisiana",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -90.087875,
+          29.919458
+        ],
+        "type": "Point"
+      },
+      "id": "01af03be918b5cb70dd4658720f55bff"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Northwestern University, Emory University, Johns Hopkins University\"",
+        "initials": "AW",
+        "name": "Ali W.",
+        "place_name": "Atlanta, Georgia",
+        "type": "school",
+        "job": "Team Lead",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.31394,
+          33.803764
+        ],
+        "type": "Point"
+      },
+      "id": "08f91008290d0eca4df4b664bee121e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ghana--will be my first visit with my husband and kids\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Ghana",
+        "question": "Where would you most like to travel internationally after the pandemic?",
+        "team": "EST",
+        "type": "visit"
+      },
+      "geometry": {
+        "coordinates": [
+          -1.522403,
+          7.115631
+        ],
+        "type": "Point"
+      },
+      "id": "0aba98ed0cc89e167b6173b710f88965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Georgia State University -- Undergrad & Grad school\"",
+        "initials": "TS",
+        "job": "ORISE Fellow",
+        "name": "Tiearra S.",
+        "place_name": "Atlanta, Georgia",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.38627,
+          33.75399
+        ],
+        "type": "Point"
+      },
+      "id": "0cafc066987c87ad9b802f6ada8ddd4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I studied abroad for my senior year of college at L'universitá di Bologna in Bolgna, Italy\"",
+        "initials": "CF",
+        "job": "Branch Chief",
+        "name": "Cindy F.",
+        "place_name": "Bologna, Italy",
+        "team": "OBC",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          11.354681,
+          44.498107
+        ],
+        "type": "Point"
+      },
+      "id": "2124fcea30320db3d9e934c4cfc71973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I attended Spelman College (Atlanta, GA) for my BS and Columbia University's Mailman School of Public Health (New York, NY) for my MPH).\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "New York, New York",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.941864,
+          40.840833
+        ],
+        "type": "Point"
+      },
+      "id": "226b7d45a4b567d7a5e778cbe81b86d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Madison, Wisconsin. Though I've only lived in Atlanta for a few weeks and it's already coming in for the tie!\"",
+        "initials": "EG",
+        "job": "Cartographer",
+        "name": "Ellie G.",
+        "place_name": "Madison, Wisconsin",
+        "team": "PRT",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.417211,
+          43.061952
+        ],
+        "type": "Point"
+      },
+      "id": "23caa7e776e97519490f9450b9d0f4db"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Sicily\"",
+        "initials": "CF",
+        "job": "Branch Chief",
+        "name": "Cindy F.",
+        "place_name": "Sicily, Italy",
+        "team": "OBC",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          14.164422,
+          37.606326
+        ],
+        "type": "Point"
+      },
+      "id": "36833a3a1178bd8ed408fbb1c6567fa7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Colorado College, Tulane SPHTM\"",
+        "initials": "MH",
+        "job": "Deputy Branch Chief",
+        "name": "Michelle H.",
+        "place_name": "New Orleans, Louisiana",
+        "team": "OBC",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -90.116849,
+          29.942237
+        ],
+        "type": "Point"
+      },
+      "id": "3b94becabc58f219d60b54852a4a1bb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "initials": "JB",
+        "name": "Jesse B.",
+        "place_name": "Atlanta, Georgia",
+        "type": "home",
+        "comments": "\"Atlanta, Georgia\"",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.37026,
+          33.770623
+        ],
+        "type": "Point"
+      },
+      "id": "4719e35391b7312c90edbb535fbff65d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"College: Lynchburg, Virginia (Randolph-Macon Woman's College); Grad school: Atlanta, Georgia (Emory)\"",
+        "initials": "RR",
+        "job": "Team Lead",
+        "name": "Robin R.",
+        "place_name": "Lynchburg, Virginia",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.171203,
+          37.437866
+        ],
+        "type": "Point"
+      },
+      "id": "50ed9f3a9fb830000ccf6bb85f551279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"College: American University, Washington DC; MPH & PhD: Emory & GSU, Atlanta, Georgia\"",
+        "initials": "LM",
+        "name": "Leah M.",
+        "place_name": "Atlanta, Georgia",
+        "type": "school",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.384889,
+          33.74919
+        ],
+        "type": "Point"
+      },
+      "id": "5224d39187786b14679575b8069425b1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I went to Arizona State University (Tempe, Arizona) for undergrad, and JHSPH in Baltimore for my MPH!\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "Tempe, Arizona",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.933126,
+          33.421642
+        ],
+        "type": "Point"
+      },
+      "id": "537bbe0471ddf5fc5a967dce5fbe41a4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"College: Lynchburg, Virginia (Randolph-Macon Woman's College); Grad school: Atlanta, Georgia (Emory)\"",
+        "initials": "RR",
+        "job": "Team Lead",
+        "name": "Robin R.",
+        "place_name": "Atlanta, Georgia",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.329481,
+          33.795531
+        ],
+        "type": "Point"
+      },
+      "id": "5cec4d8a88e4b5f574f34fe520258ceb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"London\"",
+        "initials": "CF",
+        "job": "Branch Chief",
+        "name": "Cindy F.",
+        "place_name": "London, United Kingdom",
+        "question": "What is your favorite place you have ever lived, even briefly?",
+        "team": "OBC",
+        "type": "favorite"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.127447,
+          51.539509
+        ],
+        "type": "Point"
+      },
+      "id": "604e3c75b27a8f73bd3a9e112623816c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Swarthmore/Charlottesville/Philadelphia/Washington DC\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Philadelphia, Pennsylvania",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "EST",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.183827,
+          39.97914
+        ],
+        "type": "Point"
+      },
+      "id": "796c34c97974ad432f8b2e3a54da59d2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Undergrad: University of Wisconsin-Madison; Graduate school for MPH: Emory University; Graduate school for DrPH: University of Georgia\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Madison, Wisconsin",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.423068,
+          43.076584
+        ],
+        "type": "Point"
+      },
+      "id": "7af06ace2ade1587fb45859d1fd4018a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Undergrad: Claremont, California; Medical school: Philadelphia, Pennsylvania\"",
+        "initials": "JN",
+        "job": "Team Lead",
+        "name": "Jeff N.",
+        "place_name": "Philadelphia, Pennsylvania",
+        "team": "PRT",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.199362,
+          39.923686
+        ],
+        "type": "Point"
+      },
+      "id": "7bcdaf42e92cef84edd6781b8cf69a2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I would like to go to Greece! Or Italy!\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "Italy",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          13.957513,
+          41.912979
+        ],
+        "type": "Point"
+      },
+      "id": "7f016dd3e1aeb0503de526c1147050d9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Madison, Wisconsin\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Madison, Wisconsin",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.369036,
+          43.080182
+        ],
+        "type": "Point"
+      },
+      "id": "801d606b32ae0fb3a86d2de7605de2dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Northwestern University, Emory University, Johns Hopkins University\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Baltimore, Maryland",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.593533,
+          39.303588
+        ],
+        "type": "Point"
+      },
+      "id": "812518d2d3de54ac6c80967bbacaf079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "initials": "EG",
+        "name": "Ellie G.",
+        "place_name": "Madison, Wisconsin",
+        "type": "school",
+        "comments": "\"I got my BS and MS from the University of Wisconsin-Madison. I also am currently working on my MAS at Johns Hopkins SPH, but that's all online.\"",
+        "job": "Cartographer",
+        "team": "PRT",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.401046,
+          43.075847
+        ],
+        "type": "Point"
+      },
+      "id": "8a8bb9042dcd43d1ba72ebb1182de8cf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Loyola Marymount University, Los Angeles (B.A. 2016); Emory University (M.P.H. 2022)",
+        "initials": "AE",
+        "job": "Emory REAL",
+        "name": "Anna E.",
+        "place_name": "Los Angeles, California",
+        "team": "OBC",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.418194,
+          33.968753
+        ],
+        "type": "Point"
+      },
+      "id": "8d650d6c568f9d46a6e3ae0eb001116b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I got my BS and MS from the University of Wisconsin-Madison. I also am currently working on my MAS at Johns Hopkins SPH, but that's all online.\"",
+        "initials": "EG",
+        "job": "Cartographer",
+        "name": "Ellie G.",
+        "place_name": "Baltimore, Maryland",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "PRT",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.601882,
+          39.294013
+        ],
+        "type": "Point"
+      },
+      "id": "8fe11eec25d419e524ccb54096033165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Northwestern University, Emory University, Johns Hopkins University\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Evanston, Illinois",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.675829,
+          42.055097
+        ],
+        "type": "Point"
+      },
+      "id": "92c65af9901ea1d3596d71588d899be6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Atlanta, Georgia for all my degrees\"",
+        "initials": "LL",
+        "job": "Health Scientist",
+        "name": "Laura L.",
+        "place_name": "Atlanta, Georgia",
+        "team": "PRT",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.364989,
+          33.788583
+        ],
+        "type": "Point"
+      },
+      "id": "96d64ee396c3b1f8b3879fd618eaf24c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Swarthmore/Charlottesville/Philadelphia/Washington DC\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Washington, DC",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "EST",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.03759,
+          38.905929
+        ],
+        "type": "Point"
+      },
+      "id": "9d84738d6cbd27e983c37a119b9e2d63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I went to Arizona State University (Tempe, Arizona) for undergrad, and JHSPH in Baltimore for my MPH!\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "Baltimore, Maryland",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.58481,
+          39.292717
+        ],
+        "type": "Point"
+      },
+      "id": "a9aa8ff809deda744bc57cd62cae9dd1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Loyola Marymount University, Los Angeles (B.A. 2016); Emory University (M.P.H. 2022)",
+        "initials": "AE",
+        "job": "Emory REAL",
+        "name": "Anna E.",
+        "place_name": "Atlanta, Georgia",
+        "team": "OBC",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.320613,
+          33.790774
+        ],
+        "type": "Point"
+      },
+      "id": "ab846153153b432ab1d0678302d5564d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"London, United Kingdom. I am hoping to visit friends.\"",
+        "initials": "SA",
+        "job": "Health Communication Specialist",
+        "name": "Suraj A.",
+        "place_name": "London, United Kingdom",
+        "team": "Comms",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.088136,
+          51.522935
+        ],
+        "type": "Point"
+      },
+      "id": "b05175f93dd3c71cbb45480428b9cb96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"College: American University, Washington DC; MPH & PhD: Emory & GSU, Atlanta, Georgia\"",
+        "initials": "LM",
+        "name": "Leah M.",
+        "place_name": "Atlanta, Georgia",
+        "type": "school",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.325704,
+          33.802146
+        ],
+        "type": "Point"
+      },
+      "id": "b3b76db922fe4c479b25e5d6af3819f8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Colorado College, Tulane SPHTM\"",
+        "initials": "MH",
+        "job": "Deputy Branch Chief",
+        "name": "Michelle H.",
+        "place_name": "Colorado Springs, Colorado",
+        "team": "OBC",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -104.823969,
+          38.848036
+        ],
+        "type": "Point"
+      },
+      "id": "b5763e3c66715e057b5cb95529359a1e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Undergrad: University of Wisconsin-Madison; Graduate school for MPH: Emory University; Graduate school for DrPH: University of Georgia\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Atlanta, Georgia",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.31228,
+          33.795315
+        ],
+        "type": "Point"
+      },
+      "id": "baa352b7dcc4b427b86dc34c173e263c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Atlanta, Georgia / Monrovia, Liberia\"",
+        "initials": "JB",
+        "name": "Jesse B.",
+        "place_name": "Atlanta, Georgia",
+        "type": "favorite",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.355811,
+          33.769445
+        ],
+        "type": "Point"
+      },
+      "id": "be2e2c120853082b9dc049722344387f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ah, Paris!\"",
+        "initials": "PK",
+        "job": "Medical Consultant",
+        "name": "Phyllis K.",
+        "place_name": "Paris, France",
+        "question": "Where would you most like to travel internationally after the pandemic?",
+        "team": "OBC",
+        "type": "visit"
+      },
+      "geometry": {
+        "coordinates": [
+          2.266857,
+          48.904895
+        ],
+        "type": "Point"
+      },
+      "id": "c43c9305b9d4f8e6d5ed8271e52a4fcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Bali\"",
+        "initials": "TS",
+        "job": "ORISE Fellow",
+        "name": "Tiearra S.",
+        "place_name": "Bali, Indonesia",
+        "team": "Comms",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          115.572759,
+          -8.417165
+        ],
+        "type": "Point"
+      },
+      "id": "cd7ac7fe45b1880c2acf07d253d36c9b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Cayman Islands\"",
+        "initials": "MH",
+        "job": "Deputy Branch Chief",
+        "name": "Michelle H.",
+        "place_name": "Cayman Islands",
+        "team": "OBC",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.238451,
+          19.308662
+        ],
+        "type": "Point"
+      },
+      "id": "country.10394802086624610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I would like to go to Greece! Or Italy!\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "Greece",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          23.318488,
+          38.315328
+        ],
+        "type": "Point"
+      },
+      "id": "country.10581211485020490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Thailand\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Thailand",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          101.017437,
+          15.127333
+        ],
+        "type": "Point"
+      },
+      "id": "country.10741565447002910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Bolivia\"",
+        "initials": "KA",
+        "job": "Medical Epidemiologist",
+        "name": "Kristina A.",
+        "place_name": "Bolivia",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.269605,
+          -16.970662
+        ],
+        "type": "Point"
+      },
+      "id": "country.11108279334747550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ghana (birthplace) circa Mechanicsville, Virginia (hometown)\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Ghana",
+        "question": "Where are you from?",
+        "team": "EST",
+        "type": "home"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.803181,
+          6.62822
+        ],
+        "type": "Point"
+      },
+      "id": "country.11786626738650780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ellie G.",
+        "place_name": "Barcelona, Spain",
+        "initials": "EG",
+        "type": "visit",
+        "comments": "\"Barcelona, Spain\"",
+        "job": "Cartographer",
+        "team": "PRT",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          2.177043,
+          41.382943
+        ],
+        "type": "Point"
+      },
+      "id": "country.18258463351519910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Some of my family relocated to China during the pandemic, and I can't wait to visit and experience their new life there!\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "China",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          101.901875,
+          35.486702
+        ],
+        "type": "Point"
+      },
+      "id": "country.2656715919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Fiji\"",
+        "initials": "LL",
+        "job": "Health Scientist",
+        "name": "Laura L.",
+        "place_name": "Fiji",
+        "team": "PRT",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          178.347983,
+          -17.862996
+        ],
+        "type": "Point"
+      },
+      "id": "country.341601480840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Japan\"",
+        "initials": "JN",
+        "job": "Team Lead",
+        "name": "Jeff N.",
+        "place_name": "Japan",
+        "team": "PRT",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          138.592229,
+          36.386492
+        ],
+        "type": "Point"
+      },
+      "id": "country.9827633378530190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I'd love to visit Sri Lanka eventually!\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "Sri Lanka",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          80.704727,
+          7.608085
+        ],
+        "type": "Point"
+      },
+      "id": "country.9987605512246530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "initials": "EG",
+        "name": "Ellie G.",
+        "place_name": "Atlanta, Georgia",
+        "type": "favorite",
+        "comments": "\"Madison, Wisconsin. Though I've only lived in Atlanta for a few weeks and it's already coming in for the tie!\"",
+        "job": "Cartographer",
+        "team": "PRT",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.34345,
+          33.766062
+        ],
+        "type": "Point"
+      },
+      "id": "d21f9c93504a8560d7df2071081c0bfb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Atlanta, Georgia\"",
+        "initials": "TS",
+        "job": "ORISE Fellow",
+        "name": "Tiearra S.",
+        "place_name": "Atlanta, Georgia",
+        "team": "Comms",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.350196,
+          33.786832
+        ],
+        "type": "Point"
+      },
+      "id": "d3b77b7e4c9377e2251ee9b127855ca7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"London, England (Study Abroad)\"",
+        "initials": "TS",
+        "job": "ORISE Fellow",
+        "name": "Tiearra S.",
+        "place_name": "London, United Kingdom",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.127289,
+          51.498156
+        ],
+        "type": "Point"
+      },
+      "id": "e27dce1b08168ac9021fbd529406ce8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"My favorite place I've lived is probably San Juan, Puerto Rico (though I'm not sure if it counts, as I was only there for 3 months for the Zika response). My other answer would be Atlanta, I lived there for two years!\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "Atlanta, Georgia",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.357676,
+          33.778838
+        ],
+        "type": "Point"
+      },
+      "id": "e9f4ca42514bdce7989a40da393dbfcd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Nairobi, Kenya\"",
+        "initials": "MH",
+        "job": "Deputy Branch Chief",
+        "name": "Michelle H.",
+        "place_name": "Nairobi, Kenya",
+        "team": "OBC",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          36.829333,
+          -1.296508
+        ],
+        "type": "Point"
+      },
+      "id": "eb2cca44527348489e6b9a88e5f19c5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I attended Spelman College (Atlanta, GA) for my BS and Columbia University's Mailman School of Public Health (New York, NY) for my MPH).\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "Atlanta, Georgia",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.411051,
+          33.745532
+        ],
+        "type": "Point"
+      },
+      "id": "ed60b91e75539844636518a0fbb4c222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Went to school in New York - Graduated from Albert Einstein College of Medicine in........1978 (long time ago!!)\"",
+        "initials": "PK",
+        "job": "Medical Consultant",
+        "name": "Phyllis K.",
+        "place_name": "New York, New York",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "OBC",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.845687,
+          40.852781
+        ],
+        "type": "Point"
+      },
+      "id": "fc97d0cd7f292c80a78100a7d08f511e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Undergrad: University of Wisconsin-Madison; Graduate school for MPH: Emory University; Graduate school for DrPH: University of Georgia\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Athens, Georgia",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.37383,
+          33.938778
+        ],
+        "type": "Point"
+      },
+      "id": "fd7e3107861263ee2e5e01a477f68bc2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Brooklyn, New York\"",
+        "initials": "CF",
+        "job": "Branch Chief",
+        "name": "Cindy F.",
+        "place_name": "Brooklyn, New York",
+        "team": "OBC",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.9496,
+          40.6501
+        ],
+        "type": "Point"
+      },
+      "id": "locality.6335122455180360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Fox Point, Wisconsin\"",
+        "initials": "RS",
+        "job": "Epidemiologist",
+        "name": "Rhett S.",
+        "place_name": "Fox Point, Wisconsin",
+        "team": "EST",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.9018,
+          43.1576
+        ],
+        "type": "Point"
+      },
+      "id": "locality.9677023427858250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"College: American University, Washington DC; MPH & PhD: Emory & GSU, Atlanta, Georgia\"",
+        "initials": "LM",
+        "name": "Leah M.",
+        "place_name": "Washington, DC",
+        "type": "school",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.089485,
+          38.937948
+        ],
+        "type": "Point"
+      },
+      "id": "neighborhood.291489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Makati, Philippines; Kompong Cham, Cambodia; Cheyenne, Wyoming\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Cheyenne, Wyoming",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -104.8202,
+          41.14
+        ],
+        "type": "Point"
+      },
+      "id": "place.10378573789726710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Madrid, Spain (first study abroad) and Accra, Ghana (family)\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Madrid, Spain",
+        "question": "What is your favorite place you have ever lived, even briefly?",
+        "team": "EST",
+        "type": "favorite"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.69194,
+          40.41889
+        ],
+        "type": "Point"
+      },
+      "id": "place.10708255346562040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"That one is tough!! Brisbane, Lima, and Nairobi tie for me for different reasons\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Lima, Peru",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.8333,
+          -12
+        ],
+        "type": "Point"
+      },
+      "id": "place.10859529414034610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Born in Menomonee Falls, Wisconsin, but lived most of my childhood in Tallahassee, Florida\"",
+        "initials": "LL",
+        "job": "Health Scientist",
+        "name": "Laura L.",
+        "place_name": "Tallahassee, Florida",
+        "team": "PRT",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.2809,
+          30.4381
+        ],
+        "type": "Point"
+      },
+      "id": "place.10861170777108680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"That one is tough!! Brisbane, Lima, and Nairobi tie for me for different reasons\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Brisbane, Australia",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          153.0235,
+          -27.469
+        ],
+        "type": "Point"
+      },
+      "id": "place.10987281989688270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ephraim, Utah; Provo, Utah; Ann Arbor, Michigan\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Ephraim, Utah",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.5863,
+          39.3597
+        ],
+        "type": "Point"
+      },
+      "id": "place.11039151211327670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Newton, Massachusetts\"",
+        "initials": "LM",
+        "name": "Leah M.",
+        "place_name": "Newton, Massachusetts",
+        "type": "home",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.2092,
+          42.337
+        ],
+        "type": "Point"
+      },
+      "id": "place.11300193698104080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place_name": "Atlanta, Georgia",
+        "initials": "JB",
+        "name": "Jesse B.",
+        "type": "school",
+        "comments": "\"Atlanta, Georgia / Athens, Georgia\"",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.372297,
+          33.779789
+        ],
+        "type": "Point"
+      },
+      "id": "place.11362556077173260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"From (born and grew up in) Arizona--more specifically, grew up in Chandler, Arizona\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "Chandler, Arizona",
+        "team": "EST",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.8408,
+          33.3067
+        ],
+        "type": "Point"
+      },
+      "id": "place.11578414660311790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Santiago, Chile--it's booked, but we'll have to see if it happens!\"",
+        "initials": "RR",
+        "job": "Team Lead",
+        "name": "Robin R.",
+        "place_name": "Santiago, Chile",
+        "team": "Comms",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.656962,
+          -33.44415
+        ],
+        "type": "Point"
+      },
+      "id": "place.11602805488088650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Undergrad: Claremont, California; Medical school: Philadelphia, Pennsylvania\"",
+        "initials": "JN",
+        "job": "Team Lead",
+        "name": "Jeff N.",
+        "place_name": "Claremont, California",
+        "team": "PRT",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.7198,
+          34.0967
+        ],
+        "type": "Point"
+      },
+      "id": "place.11649661191326350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ghana (birthplace) circa Mechanicsville, Virginia (hometown)\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Mechanicsville, Virginia",
+        "question": "Where are you from?",
+        "team": "EST",
+        "type": "home"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.337,
+          37.6193
+        ],
+        "type": "Point"
+      },
+      "id": "place.11979430078587400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Reading, England\"",
+        "initials": "RR",
+        "job": "Team Lead",
+        "name": "Robin R.",
+        "place_name": "Reading, England",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.97306,
+          51.45417
+        ],
+        "type": "Point"
+      },
+      "id": "place.12006143788019830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Sofia, Bulgaria and Victoria, British Columbia, Canada\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Sofia, Bulgaria",
+        "team": "Comms",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          23.322295,
+          42.697145
+        ],
+        "type": "Point"
+      },
+      "id": "place.12567309339176630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Swarthmore/Charlottesville/Philadelphia/Washington DC\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Swarthmore, Pennsylvania",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "EST",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.3499,
+          39.9021
+        ],
+        "type": "Point"
+      },
+      "id": "place.12745141084332020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Winchester, Virginia\"",
+        "initials": "RR",
+        "job": "Team Lead",
+        "name": "Robin R.",
+        "place_name": "Winchester, Virginia",
+        "team": "Comms",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.1631,
+          39.1858
+        ],
+        "type": "Point"
+      },
+      "id": "place.12854596959937490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Medical school: San Francisco, California. MPH&TM: New Orleans, Louisiana\"",
+        "initials": "KA",
+        "job": "Medical Epidemiologist",
+        "name": "Kristina A.",
+        "place_name": "San Francisco, California",
+        "team": "EST",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.463,
+          37.7648
+        ],
+        "type": "Point"
+      },
+      "id": "place.13229035407559250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ephraim, Utah; Provo, Utah; Ann Arbor, Michigan\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Ann Arbor, Michigan",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.7312,
+          42.2682
+        ],
+        "type": "Point"
+      },
+      "id": "place.13277528131050890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I'm originally from Fayetteville, GA.\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "Fayetteville, Georgia",
+        "team": "EST",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.4549,
+          33.4487
+        ],
+        "type": "Point"
+      },
+      "id": "place.13307626710188550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"My husband and I traveled frequently and would rent an apartment in Paris from time to time - the most romantic place in the world!! I can't say we really \"lived\" there, but we spent as much time as we could there!\"",
+        "initials": "PK",
+        "job": "Medical Consultant",
+        "name": "Phyllis K.",
+        "place_name": "Paris, France",
+        "question": "What is your favorite place you have ever lived, even briefly?",
+        "team": "OBC",
+        "type": "favorite"
+      },
+      "geometry": {
+        "coordinates": [
+          2.41191,
+          48.812964
+        ],
+        "type": "Point"
+      },
+      "id": "place.14749210607497330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Geneva, Switzerland. I interned at the World Health Organization!\"",
+        "initials": "SA",
+        "job": "Health Communication Specialist",
+        "name": "Suraj A.",
+        "place_name": "Geneva, Switzerland",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          6.14746,
+          46.200418
+        ],
+        "type": "Point"
+      },
+      "id": "place.1597575289959690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Springfield, Illinois\"",
+        "initials": "SA",
+        "job": "Health Communication Specialist",
+        "name": "Suraj A.",
+        "place_name": "Springfield, Illinois",
+        "team": "Comms",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -89.6444,
+          39.799
+        ],
+        "type": "Point"
+      },
+      "id": "place.16202345562041530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Chappaqua, New York\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Chappaqua, New York",
+        "team": "EST",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.7649,
+          41.1595
+        ],
+        "type": "Point"
+      },
+      "id": "place.17873535265875800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Atlanta, Georgia / Monrovia, Liberia\"",
+        "initials": "JB",
+        "name": "Jesse B.",
+        "place_name": "Monrovia, Liberia",
+        "type": "favorite",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -10.779029,
+          6.297724
+        ],
+        "type": "Point"
+      },
+      "id": "place.4482090798440616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Saraya, Senegal\"",
+        "initials": "LM",
+        "job": "Epidemiologist",
+        "name": "Leah M.",
+        "place_name": "Saraya, Senegal",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -11.755677,
+          12.833243
+        ],
+        "type": "Point"
+      },
+      "id": "place.4621820158290430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"San Diego, California\"",
+        "initials": "KA",
+        "job": "Medical Epidemiologist",
+        "name": "Kristina A.",
+        "place_name": "San Diego, California",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.1628,
+          32.717399
+        ],
+        "type": "Point"
+      },
+      "id": "place.4836423083618150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Freetown, Sierra Leone (2 years)\"",
+        "initials": "AE",
+        "job": "Emory REAL",
+        "name": "Anna E.",
+        "place_name": "Freetown, Sierra Leone",
+        "team": "OBC",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -13.268284,
+          8.477574
+        ],
+        "type": "Point"
+      },
+      "id": "place.5864857150545672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Los Angeles, CA born and raised!\"",
+        "initials": "AE",
+        "job": "Emory REAL",
+        "name": "Anna E.",
+        "place_name": "Los Angeles, California",
+        "team": "OBC",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.2439,
+          34.0544
+        ],
+        "type": "Point"
+      },
+      "id": "place.6694790146427640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"That one is tough!! Brisbane, Lima, and Nairobi tie for me for different reasons\"",
+        "initials": "AW",
+        "job": "Team Lead",
+        "name": "Ali W.",
+        "place_name": "Nairobi, Kenya",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          36.806598,
+          -1.274917
+        ],
+        "type": "Point"
+      },
+      "id": "place.672452859601280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Makati, Philippines; Kompong Cham, Cambodia; Cheyenne, Wyoming\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Kampong Cham, Cambodia\"",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          105.445,
+          11.98
+        ],
+        "type": "Point"
+      },
+      "id": "place.7223278050617550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Swarthmore/Charlottesville/Philadelphia/Washington DC\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Charlottesville, Virginia",
+        "question": "Where did you go to college/graduate/professional school?",
+        "team": "EST",
+        "type": "school"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.4767,
+          38.0293
+        ],
+        "type": "Point"
+      },
+      "id": "place.7308377884016750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Sofia, Bulgaria and Victoria, British Columbia, Canada\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Victoria, British Columbia, Canada",
+        "team": "Comms",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.3649,
+          48.4283
+        ],
+        "type": "Point"
+      },
+      "id": "place.7877779600899450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "school",
+        "initials": "JB",
+        "name": "Jesse B.",
+        "place_name": "Athens, Georgia",
+        "comments": "\"Atlanta, Georgia / Athens, Georgia\"",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -83.374437,
+          33.958232
+        ],
+        "type": "Point"
+      },
+      "id": "place.8085735138184700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Born in Menomonee Falls, Wisconsin, but lived most of my childhood in Tallahassee, Florida\"",
+        "initials": "LL",
+        "job": "Health Scientist",
+        "name": "Laura L.",
+        "place_name": "Menomonee Falls, Wisconsin",
+        "team": "PRT",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -88.1167,
+          43.1789
+        ],
+        "type": "Point"
+      },
+      "id": "place.8112945912965620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Makati, Philippines; Kompong Cham, Cambodia; Cheyenne, Wyoming\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Makati, Philippines",
+        "team": "Comms",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          121.03333,
+          14.55
+        ],
+        "type": "Point"
+      },
+      "id": "place.8136659652828320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Madrid, Spain (first study abroad) and Accra, Ghana (family)\"",
+        "initials": "GA",
+        "job": "Medical Officer",
+        "name": "Grace A.",
+        "place_name": "Accra, Ghana",
+        "question": "What is your favorite place you have ever lived, even briefly?",
+        "team": "EST",
+        "type": "favorite"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.205561,
+          5.559946
+        ],
+        "type": "Point"
+      },
+      "id": "place.8355568580241623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"My favorite place I've lived is probably San Juan, Puerto Rico (though I'm not sure if it counts, as I was only there for 3 months for the Zika response). My other answer would be Atlanta, I lived there for two years!\"",
+        "initials": "KC",
+        "job": "Public Health Advisor",
+        "name": "Kaitlyn C.",
+        "place_name": "San Juan, Puerto Rico",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.073888,
+          18.449835
+        ],
+        "type": "Point"
+      },
+      "id": "place.8732345024103880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"London, United Kingdom (still waiting to use the tickets we bought right before the pandemic)\"",
+        "initials": "JB",
+        "name": "Jesse B.",
+        "place_name": "London, United Kingdom",
+        "type": "visit",
+        "job": "Epidemiologist",
+        "team": "EST",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.174469,
+          51.516726
+        ],
+        "type": "Point"
+      },
+      "id": "place.8780954591631530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Rabat, Morocco\"",
+        "initials": "AE",
+        "job": "Emory REAL",
+        "name": "Anna E.",
+        "place_name": "Rabat, Morocco",
+        "team": "OBC",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          -6.835559,
+          34.023057
+        ],
+        "type": "Point"
+      },
+      "id": "place.8898934748696270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ellie G.",
+        "initials": "EG",
+        "place_name": "Elm Grove, Wisconsin",
+        "type": "home",
+        "comments": "\"Elm Grove, Wisconsin\"",
+        "job": "Cartographer",
+        "team": "PRT",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -88.079,
+          43.0431
+        ],
+        "type": "Point"
+      },
+      "id": "place.8915993346931200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Mapleton, Utah\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Mapleton, Utah",
+        "team": "Comms",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.5785,
+          40.1302
+        ],
+        "type": "Point"
+      },
+      "id": "place.8945081744591760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Thousand Oaks, California\"",
+        "initials": "KA",
+        "job": "Medical Epidemiologist",
+        "name": "Kristina A.",
+        "place_name": "Thousand Oaks, California",
+        "team": "EST",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.8376,
+          34.1706
+        ],
+        "type": "Point"
+      },
+      "id": "place.9030667894288890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"New Orleans, LA\"",
+        "initials": "MH",
+        "job": "Deputy Branch Chief",
+        "name": "Michelle H.",
+        "place_name": "New Orleans, Louisiana",
+        "team": "OBC",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -90.0701,
+          29.9499
+        ],
+        "type": "Point"
+      },
+      "id": "place.9119486448473040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"New Haven, Connecticut. I went to Yale for my MPH (any other Yalies out there?)\"",
+        "initials": "SA",
+        "job": "Health Communication Specialist",
+        "name": "Suraj A.",
+        "place_name": "New Haven, Connecticut",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.9279,
+          41.309747
+        ],
+        "type": "Point"
+      },
+      "id": "place.9754137160152260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"Ephraim, Utah; Provo, Utah; Ann Arbor, Michigan\"",
+        "initials": "JA",
+        "job": "Health Communication Specialist",
+        "name": "Jessica A.",
+        "place_name": "Provo, Utah",
+        "team": "Comms",
+        "type": "school",
+        "question": "Where did you go to college/graduate/professional school?"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.6585,
+          40.2338
+        ],
+        "type": "Point"
+      },
+      "id": "place.9790525786571080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I lived in GA all my life then went to New York for grad school (wouldn't want to live there). We'll stick to GA\"",
+        "initials": "AB",
+        "job": "Epidemiologist",
+        "name": "Ashley B.",
+        "place_name": "Georgia, USA",
+        "team": "EST",
+        "type": "favorite",
+        "question": "What is your favorite place you have ever lived, even briefly?"
+      },
+      "geometry": {
+        "coordinates": [
+          -84.344801,
+          33.7777
+        ],
+        "type": "Point"
+      },
+      "id": "region.10288430666212700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"From New York--do I sound like it??\"",
+        "initials": "PK",
+        "job": "Medical Consultant",
+        "name": "Phyllis K.",
+        "place_name": "New York, USA",
+        "question": "Where are you from?",
+        "team": "OBC",
+        "type": "home"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.465247,
+          42.75121
+        ],
+        "type": "Point"
+      },
+      "id": "region.17349986251855570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"I'm thinking Bali!\"",
+        "initials": "LM",
+        "job": "Epidemiologist",
+        "name": "Leah M.",
+        "place_name": "Bali, Indonesia",
+        "team": "EST",
+        "type": "visit",
+        "question": "Where would you most like to travel internationally after the pandemic?"
+      },
+      "geometry": {
+        "coordinates": [
+          114.722489,
+          -8.287782
+        ],
+        "type": "Point"
+      },
+      "id": "region.9012896814698400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "comments": "\"California\"",
+        "initials": "JN",
+        "job": "Team Lead",
+        "name": "Jeff N.",
+        "place_name": "California, USA",
+        "team": "PRT",
+        "type": "home",
+        "question": "Where are you from?"
+      },
+      "geometry": {
+        "coordinates": [
+          -119.699375,
+          37.074359
+        ],
+        "type": "Point"
+      },
+      "id": "region.9803118085738010"
+    }
+  ],
+  "type": "FeatureCollection"
+}
