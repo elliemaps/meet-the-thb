@@ -45,6 +45,8 @@
           
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNodDk1NDBodXQyd281cTNmaGkyZmQifQ.CgVgTN5Coqtw2SpQnrCm2Q';
+    
+    
                         
     var map = new mapboxgl.Map({
       container: 'map',
@@ -52,6 +54,9 @@
       center: [27.142344, 26.371925],
       zoom: 1.3
     });
+    
+    var nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'top-left');
         
     //disable map rotation using right click + drag
     map.dragRotate.disable();

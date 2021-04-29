@@ -5,6 +5,8 @@
 <title>Filter symbols by toggling a list</title>
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+            <script type="text/geojson" src="features.geojson"></script>
+
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
 <style>
 body { margin: 0; padding: 0; }
@@ -65,7 +67,15 @@ body { margin: 0; padding: 0; }
 <nav id="filter-group" class="filter-group"></nav>
 
 <script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNodDk1NDBodXQyd281cTNmaGkyZmQifQ.CgVgTN5Coqtw2SpQnrCm2Q';
+	    mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNodDk1NDBodXQyd281cTNmaGkyZmQifQ.CgVgTN5Coqtw2SpQnrCm2Q';
+    // This GeoJSON contains features that include an "icon"
+    // property. The value of the "icon" property corresponds
+    // to an image in the Mapbox Light style's sprite. (Note:
+    // the name of images is the value of the "icon" property
+    // + "-15".)
+    var places = {
+        'features.geojson'
+    };
 
     var filterGroup = document.getElementById('filter-group');
     var map = new mapboxgl.Map({
@@ -79,7 +89,7 @@ body { margin: 0; padding: 0; }
         // Add a GeoJSON source containing place coordinates and information.
         map.addSource('places', {
             'type': 'geojson',
-            'data': "features.geojson"
+            'data': places
         });
 
         places.features.forEach(function (feature) {
@@ -125,32 +135,6 @@ body { margin: 0; padding: 0; }
                     );
                 });
             }
-        });
-        
-        //when a click event occurs on a feature in the places layer, open a popup at the location of the feature, with description HTML from its properties.
-        map.on('click', 'points', function(e) {
-            var coordinates = e.features[0].geometry.coordinates.slice();
-            var description = e.features[0].properties.description;
-
-            //ensure that if the map is zoomed out such that multiple copies of the feature are visible, the popup appears over the copy being pointed to.
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
-
-            new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-        });
-
-        //change the cursor to a pointer when the mouse is over the places layer.
-        map.on('mouseenter', 'places', function() {
-            map.getCanvas().style.cursor = 'pointer';
-        });
-
-        //change back to pointer
-        map.on('mouseleave', 'places', function() {
-            map.getCanvas().style.cursor = '';
         });
     });
 </script>
