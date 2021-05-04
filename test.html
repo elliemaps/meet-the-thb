@@ -10,8 +10,27 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
     
 <style>
-body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+            body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .mapboxgl-popup {
+            max-width: 200px;
+        }
+
+        .mapboxgl-popup-content {
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+        }
 </style>
     
 </head>
@@ -52,7 +71,7 @@ body { margin: 0; padding: 0; }
     }
 
     #menu a.active {
-        background-color: #3887be;
+        background-color: #636363;
         color: #ffffff;
     }
 
@@ -65,120 +84,96 @@ body { margin: 0; padding: 0; }
 <div id="map"></div>
 
 <script>
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNnbjN5azBnd2oyb213dzBhdGdnZ2gifQ.9fdQ8YxOegRtVogCbhI60Q';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNodDk1NDBodXQyd281cTNmaGkyZmQifQ.CgVgTN5Coqtw2SpQnrCm2Q';
+    
+    var bounds = [
+        [-130,-60], // Southwest coordinates
+        [180,70] // Northeast coordinates
+    ];
+        
     var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        zoom: 15,
-        center: [-71.97722138410576, -13.517379300798098]
+      container: 'map',
+      style: 'mapbox://styles/elliemaps/ckngscr5x0ea417mkooe9tywu',
+      center: [31.142344, 26.371925],
+        zoom: 1.3,
+      minZoom: 1,
+        maxZoom: 10,
+        maxBounds: bounds
     });
+    
+    var nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'top-left');
+        
+    //disable map rotation using right click + drag
+    map.dragRotate.disable();
+
+    //disable map rotation using touch rotation gesture
+    map.touchZoomRotate.disableRotation();
 
     // Wait until the map has finished loading.
     map.on('load', function () {
-        // Add a custom vector tileset source. This tileset contains
-        // point features representing museums. Each feature contains
-        // three properties. For example:
-        // {
-        //     alt_name: "Museo Arqueologico",
-        //     name: "Museo Inka",
-        //     tourism: "museum"
-        // }
-        map.addSource('home', {
-            type: 'vector',
-            url: 'mapbox://elliemaps.cknf1relv0a0t28l27p6y14oy-0fqbr'
+        
+        map.on('click', function(e) {
+
+            var features = map.queryRenderedFeatures(e.point, {
+                layers: ['From', 'Favorite', 'Travel', 'School'] // Mapbox Studio dataset layers
+            });
+
+              if (!features.length) {
+                return;
+              }
+
+            var places = features[0];
+
+            var popup = new mapboxgl.Popup({ offset: [0, -15] })
+                .setLngLat(places.geometry.coordinates)
+                .setHTML('<h3>' + places.properties.name + ', ' + places.properties.job + ', ' + places.properties.team + '</h3><h4>' + places.properties.question + '</h4>' + places.properties.comments + '</p>')
+                .addTo(map);
         });
-        map.addLayer({
-            'id': 'museums',
-            'type': 'circle',
-            'source': 'museums',
-            'layout': {
-                // Make the layer visible by default.
-                'visibility': 'visible'
-            },
-            'paint': {
-                'circle-radius': 8,
-                'circle-color': 'rgba(55,148,179,1)'
-            },
-            'source-layer': 'museum-cusco'
+        
+        
+        //change the cursor to a pointer when the mouse is over the places layer.
+        map.on('mouseenter', 'thb', function() {
+            map.getCanvas().style.cursor = 'pointer';
         });
 
-        // Add the Mapbox Terrain v2 vector tileset. Read more about
-        // the structure of data in this tileset in the documentation:
-        // https://docs.mapbox.com/vector-tiles/reference/mapbox-terrain-v2/
-        map.addSource('contours', {
-            type: 'vector',
-            url: 'mapbox://mapbox.mapbox-terrain-v2'
+        //change back to pointer
+        map.on('mouseleave', 'thb', function() {
+            map.getCanvas().style.cursor = '';
         });
-        map.addLayer({
-            'id': 'contours',
-            'type': 'line',
-            'source': 'contours',
-            'source-layer': 'contour',
-            'layout': {
-                // Make the layer visible by default.
-                'visibility': 'visible',
-                'line-join': 'round',
-                'line-cap': 'round'
-            },
-            'paint': {
-                'line-color': '#877b59',
-                'line-width': 1
-            }
-        });
+
     });
 
-    // After the last frame rendered before the map enters an "idle" state.
-    map.on('idle', function () {
-        // If these two layers have been added to the style,
-        // add the toggle buttons.
-        if (map.getLayer('contours') && map.getLayer('museums')) {
-            // Enumerate ids of the layers.
-            var toggleableLayerIds = ['contours', 'museums'];
-            // Set up the corresponding toggle button for each layer.
-            for (var i = 0; i < toggleableLayerIds.length; i++) {
-                var id = toggleableLayerIds[i];
-                if (!document.getElementById(id)) {
-                    // Create a link.
-                    var link = document.createElement('a');
-                    link.id = id;
-                    link.href = '#';
-                    link.textContent = id;
-                    link.className = 'active';
-                    // Show or hide layer when the toggle is clicked.
-                    link.onclick = function (e) {
-                        var clickedLayer = this.textContent;
-                        e.preventDefault();
-                        e.stopPropagation();
+    var toggleableLayerIds = ['From', 'School', 'Favorite', 'Travel'];
 
-                        var visibility = map.getLayoutProperty(
-                            clickedLayer,
-                            'visibility'
-                        );
+    for (var i = 0; i < toggleableLayerIds.length; i++) {
+      var id = toggleableLayerIds[i];
 
-                        // Toggle layer visibility by changing the layout object's visibility property.
-                        if (visibility === 'visible') {
-                            map.setLayoutProperty(
-                                clickedLayer,
-                                'visibility',
-                                'none'
-                            );
-                            this.className = '';
-                        } else {
-                            this.className = 'active';
-                            map.setLayoutProperty(
-                                clickedLayer,
-                                'visibility',
-                                'visible'
-                            );
-                        }
-                    };
+      var link = document.createElement('a');
+      link.href = '#';
+      link.className = 'active';
+      link.textContent = id;
 
-                    var layers = document.getElementById('menu');
-                    layers.appendChild(link);
-                }
-            }
+      link.onclick = function(e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+          map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+          this.className = '';
+        } else {
+          this.className = 'active';
+          map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
         }
-    });
+      };
+
+      var layers = document.getElementById('menu');
+      layers.appendChild(link);
+    }
+
 </script>
 
 </body>
