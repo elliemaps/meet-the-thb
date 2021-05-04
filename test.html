@@ -127,7 +127,7 @@
 
             var popup = new mapboxgl.Popup({ offset: [0, -15] })
                 .setLngLat(places.geometry.coordinates)
-                .setHTML('<h3>' + places.properties.name + ', ' + places.properties.job + ', ' + places.properties.team + '</h3><h4>' + places.properties.question + '</h4>' + places.properties.comments + '</p>')
+                .setHTML('<h3>' + places.properties.name + ', ' + places.properties.job + ' (' + places.properties.team + ')''</h3><h4>' + places.properties.question + '</h4>' + places.properties.comments + '</p>')
                 .addTo(map);
         });
         
