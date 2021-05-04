@@ -7,6 +7,7 @@
     <title>Meet the THB</title>
     <meta name='viewport' content='width=device-width, initial-scale=1' />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
 
@@ -81,12 +82,43 @@
     #menu a.active:hover {
         background: #3074a4;
     }
+    
+    #welcomeWrapper {
+          text-align: center;
+          position: fixed;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%,-100%);
+          width: 45%;
+          z-index: 700;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          color: black;
+          background-color: rgba(239, 239, 239, 1);
+          box-shadow: 0 1px 5px black;
+          padding: 10px;
+          border-radius: 25px;
+    }
 </style>
 
+<div id="welcomeWrapper">
+    <h1>Meet the Travelers' Health Branch</h1> 
+
+    <p>The four different layers in this map relate to the four different questions asked in the survey: Where are you from? Where did you go to school? What is your favorite place you've ever lived? And where would you most like to travel internationally after the pandemic?</p>
+    
+    <p>You can toggle these layers on and off using the menu in the upper right-hand corner. You may need to double click to turn a layer off the first time.</p>
+    
+    <p class="click"><strong>Click anywhere on the map to start</strong></p>
+</div>
 <nav id="menu"></nav>
 <div id="map"></div>
 
+
 <script>
+    $(document).click(function(){
+        $("#welcomeWrapper").hide();
+    });
+    
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZWxsaWVtYXBzIiwiYSI6ImNrbXNodDk1NDBodXQyd281cTNmaGkyZmQifQ.CgVgTN5Coqtw2SpQnrCm2Q';
     
     var bounds = [
@@ -119,7 +151,7 @@
         map.on('click', function(e) {
 
             var features = map.queryRenderedFeatures(e.point, {
-                layers: ['Home', 'School', 'Favorite', 'Travel'] // Mapbox Studio dataset layers
+                layers: ['From', 'School', 'Favorite', 'Travel'] // Mapbox Studio dataset layers
             });
 
               if (!features.length) {
@@ -147,7 +179,7 @@
 
     });
 
-    var toggleableLayerIds = ['Home', 'School', 'Favorite', 'Travel'];
+    var toggleableLayerIds = ['From', 'School', 'Favorite', 'Travel'];
 
     for (var i = 0; i < toggleableLayerIds.length; i++) {
       var id = toggleableLayerIds[i];
