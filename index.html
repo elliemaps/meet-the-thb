@@ -162,18 +162,20 @@
 
             var popup = new mapboxgl.Popup({ offset: [0, -15] })
                 .setLngLat(places.geometry.coordinates)
-                .setHTML('<h3>' + places.properties.name + ', ' + places.properties.job + '</h3><h4>' + places.properties.question + '</h4>' + places.properties.comments + '</p>')
+                .setHTML('<h3>' + places.properties.name + ', ' + places.properties.job + ' (' + places.properties.team + ')' +
+                         
+                         '</h3><h4>' + places.properties.question + '</h4>' + places.properties.comments + '</p>')
                 .addTo(map);
         });
         
         
         //change the cursor to a pointer when the mouse is over the places layer.
-        map.on('mouseenter', 'thb', function() {
+        map.on('mouseenter', 'From', 'School', 'Favorite', 'Travel', function() {
             map.getCanvas().style.cursor = 'pointer';
         });
 
         //change back to pointer
-        map.on('mouseleave', 'thb', function() {
+        map.on('mouseleave', 'From', 'School', 'Favorite', 'Travel', function() {
             map.getCanvas().style.cursor = '';
         });
 
